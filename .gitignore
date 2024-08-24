@@ -1,0 +1,31 @@
+# Ignorar ambiente virtual
+venv/
+
+# Arquivos de bytecode do Python
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+
+# Arquivos temporários
+*.log
+*.tmp
+*.swp
+*.swo
+
+# Configurações do Visual Studio Code
+.vscode/
+
+# Arquivos e pastas de build
+build/
+dist/
+*.egg-info/
+
+# Dependências do pip
+Pipfile.lock
+
+# Ignorar diretórios de cache do pytest
+.pytest_cache/
+
+# Ignorar o banco de dados
+filmes.db
